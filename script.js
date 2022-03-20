@@ -19,7 +19,6 @@ function jump() {
         }, 300);
     }
 }
-var counter = 0;
 
 let isAlive = setInterval(() => {
     let randomTime = Math.random() * 1000;
@@ -38,5 +37,4 @@ let isAlive = setInterval(() => {
 
 document.addEventListener("keydown", event => {
     jump();
-    counter++
 });
