@@ -8,3 +8,4 @@
 - Copy the content of script.js into the console
 - Voila! It'll jump and duck everything in its path!
 # dino-game
+# dino-game
