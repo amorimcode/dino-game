@@ -21,7 +21,7 @@ function jump() {
 }
 
 let isAlive = setInterval(() => {
-    let randomTime = Math.random() * 1000;
+    let randomTime = 1000
 
     let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
 
